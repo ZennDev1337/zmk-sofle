@@ -3,6 +3,9 @@
 https://github.com/GPeye/mario-peripheral-animation
 https://github.com/GPeye/hammerbeam-slideshow
 https://github.com/GPeye/urchin-peripheral-animation
+
+https://github.com/M165437/nice-view-gem
+
 https://nickcoutsos.github.io/keymap-editor/
 https://zmk.studio/
 
