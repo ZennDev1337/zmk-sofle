@@ -60,11 +60,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &trans  &kp F6             &kp F7        &kp F8          &kp F9           &kp F10    &kp DELETE
-&trans     &trans  &trans  &trans  &trans  &trans    &trans  &kp PLUS           &kp MINUS     &kp STAR        &kp SLASH        &kp UNDER  &kp EQUAL
-&trans     &trans  &trans  &trans  &trans  &trans    &trans  &kp TILDE          &kp COLON     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LBKT   &kp RBKT
-&trans     &trans  &trans  &trans  &trans  &trans    &trans  &kp DOUBLE_QUOTES  &kp QUESTION  &kp EXCL        &kp CARET        &kp F11    &kp F12
-&trans     &trans  &trans  &trans  &trans  &trans    &trans  &kp BACKSPACE      &mo 3         &trans          &trans           &trans
+&kp GRAVE  &kp F1     &kp F2  &kp F3  &kp F4    &kp F5        &trans  &kp F6             &kp F7        &kp F8          &kp F9           &kp F10    &kp DELETE
+&trans     &kp GRAVE  &trans  &trans  &kp HOME  &kp END       &trans  &kp PLUS           &kp MINUS     &kp STAR        &kp SLASH        &kp UNDER  &kp EQUAL
+&trans     &kp TILDE  &trans  &trans  &trans    &kp INSERT    &trans  &kp TILDE          &kp COLON     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LBKT   &kp RBKT
+&trans     &trans     &trans  &trans  &trans    &trans        &trans  &kp DOUBLE_QUOTES  &kp QUESTION  &kp EXCL        &kp CARET        &kp F11    &kp F12
+&trans     &trans     &trans  &trans  &trans    &trans        &trans  &kp BACKSPACE      &mo 3         &trans          &trans           &trans
             >;
 
             label = "Layer1";
@@ -72,11 +72,11 @@
 
         layer_2 {
             bindings = <
-&kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &trans  &kp F6         &kp F7  &kp F8  &kp F9   &kp F10  &kp DELETE
-&trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans  &trans  &trans   &trans   &trans
-&trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans  &trans  &trans   &trans   &trans
-&trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans  &trans  &kp F11  &kp F12  &trans
-&trans     &trans  &trans  &trans  &trans  &trans    &trans  &kp BACKSPACE  &trans  &trans  &trans   &trans
+&kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &trans  &kp F6         &kp F7  &kp F8  &kp F9         &kp F10        &kp DELETE
+&trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans  &trans  &trans         &kp RC(RA(Y))  &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans  &trans  &kp RA(RC(P))  &kp RA(RC(Q))  &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans  &trans  &kp F11        &kp F12        &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &trans  &kp BACKSPACE  &trans  &trans  &trans         &trans
             >;
 
             label = "Layer2";
