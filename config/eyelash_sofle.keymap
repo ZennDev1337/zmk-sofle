@@ -60,11 +60,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE  &kp F1     &kp F2  &kp F3  &kp F4    &kp F5        &trans  &kp F6             &kp F7        &kp F8          &kp F9           &kp F10    &kp DELETE
-&trans     &kp GRAVE  &trans  &trans  &kp HOME  &kp END       &trans  &kp PLUS           &kp MINUS     &kp STAR        &kp SLASH        &kp UNDER  &kp EQUAL
-&trans     &kp TILDE  &trans  &trans  &trans    &kp INSERT    &trans  &kp TILDE          &kp COLON     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LBKT   &kp RBKT
-&trans     &trans     &trans  &trans  &trans    &trans        &trans  &kp DOUBLE_QUOTES  &kp QUESTION  &kp EXCL        &kp CARET        &kp F11    &kp F12
-&trans     &trans     &trans  &trans  &trans    &trans        &trans  &kp BACKSPACE      &mo 3         &trans          &trans           &trans
+&kp GRAVE  &kp F1     &kp F2     &kp F3    &kp F4     &kp F5        &mmv MOVE_UP     &kp F6             &kp F7           &kp F8    &kp F9     &kp F10    &kp DELETE
+&kp GRAVE  &kp PLUS   &kp MINUS  &kp STAR  &kp SLASH  &kp INSERT    &mmv MOVE_DOWN   &kp LEFT_BRACE     &kp RIGHT_BRACE  &kp UP    &kp COLON  &kp UNDER  &kp EQUAL
+&trans     &kp TILDE  &trans     &trans    &kp HOME   &kp END       &mmv MOVE_LEFT   &kp TILDE          &kp LEFT         &kp DOWN  &kp RIGHT  &kp LBKT   &kp RBKT
+&trans     &trans     &trans     &trans    &trans     &trans        &mmv MOVE_RIGHT  &kp DOUBLE_QUOTES  &kp QUESTION     &kp EXCL  &kp CARET  &kp F11    &kp F12
+&trans     &trans     &trans     &trans    &trans     &trans        &mkp LCLK        &kp BACKSPACE      &mo 3            &trans    &trans     &trans
             >;
 
             label = "Layer1";
@@ -76,7 +76,7 @@
 &trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans  &trans  &trans     &kp RA(Y)  &trans
 &trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans  &trans  &kp RA(P)  &kp RA(Q)  &trans
 &trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans  &trans  &kp F11    &kp F12    &trans
-&trans     &trans  &trans  &trans  &trans  &trans    &trans  &kp BACKSPACE  &trans  &trans  &trans     &trans
+&trans     &trans  &trans  &trans  &mo 3   &trans    &trans  &kp BACKSPACE  &trans  &trans  &trans     &trans
             >;
 
             label = "Layer2";
