@@ -64,7 +64,7 @@
 &kp GRAVE  &kp PLUS   &kp MINUS  &kp STAR  &kp SLASH  &kp INSERT    &mmv MOVE_DOWN   &kp LEFT_BRACE     &kp RIGHT_BRACE  &kp UP    &kp COLON  &kp UNDER  &kp EQUAL
 &trans     &kp TILDE  &trans     &trans    &kp HOME   &kp END       &mmv MOVE_LEFT   &kp TILDE          &kp LEFT         &kp DOWN  &kp RIGHT  &kp LBKT   &kp RBKT
 &trans     &trans     &trans     &trans    &trans     &trans        &mmv MOVE_RIGHT  &kp DOUBLE_QUOTES  &kp QUESTION     &kp EXCL  &kp CARET  &kp F11    &kp F12
-&trans     &trans     &trans     &trans    &trans     &trans        &mkp LCLK        &kp BACKSPACE      &mo 3            &trans    &trans     &trans
+&trans     &trans     &trans     &trans    &trans     &trans        &mkp LCLK        &mo 3              &kp BACKSPACE    &trans    &trans     &trans
             >;
 
             label = "Layer1";
